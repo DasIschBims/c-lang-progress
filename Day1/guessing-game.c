@@ -8,7 +8,9 @@ typedef enum
     true
 } bool;
 
-int main(void)
+// note to self: so there are bool with stdbool.h
+
+int main()
 {
     // generate a random number from 1 - 100
     int r_number = rand() % 100 + 1;
